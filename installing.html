@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type='text/css' rel='stylesheet' href='./iopage.css'>
+    <title>lispmath – Installing lispmath</title>
+  </head>
+  <h1>Installing lispmath</h1>
+  <p>To install <strong>lispmath</strong>, simply install it from Ultralisp:<br/>
+    Install Quicklisp, then eval the following in your Lisp REPL:<br/>
+    <pre><code>
+	(ql-dist:install-dist "http://dist.ultralisp.org/"
+                      :prompt nil)
+    </pre></code>
+    Or, for Qlot users, add the following to your <strong>qlfile:</strong><br/>
+    <pre><code>
+	dist ultralisp http://dist.ultralisp.org/
+	ql :all :latest
+	ultralisp :all :latest
+    </pre></code>
+  </p>
+  <p>Then, use the command <code>(ql:quickload "lispmath")</code> to load lispmath. And you're done!</p>

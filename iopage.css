@@ -1,4 +1,31 @@
-h1 {
-    text-color='#0c81c4'
-    font-family='sans-serif'
+body {
+    font-family: sans-serif;
+    background-color: #abce23;
 }
+h1 {
+    color: #0c81c4;
+}
+p strong {
+    color: #28af7c;
+}
+p a em {
+    color: #182afc;
+}
+p a {
+    text-decoration: none;
+}
+p a em:hover {
+    color: #11012d;
+}
+a.redirect-option {
+    text-decoration: none;
+}
+a.redirect-option:hover {
+    color: #18456f;
+}
+p pre code {
+    color: #192acd;
+}
+
+	    
+
