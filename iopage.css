@@ -26,7 +26,7 @@ a.redirect-option {
 a.redirect-option:hover {
     color: #18456f;
 }
-a.redirect-option:active {
+a.redirect-option:visited {
     color: #182afc;
 }
 	    
