@@ -1,4 +1,4 @@
-//Import the 'Raleway' font to use among the texts
+// Import the 'Raleway' font to use among the texts
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,600;1,700&display=swap');
 
@@ -9,19 +9,19 @@ body {
     background-color: #abce23;
 }
 
-//h1 is a blue sort.
+// h1 is a blue sort.
 
 h1 {
     color: #0c81c4;
 }
 
-//Things inside <strong></strong> are rendered light green, if inside <p></p> tags as well.
+// Things inside <strong></strong> are rendered light green, if inside <p></p> tags as well.
 
 p strong {
     color: #28af7c;
 }
 
-//a[nchor] elements are dark blue, with no underlines/stuff.
+// a[nchor] elements are dark blue, with no underlines/stuff.
 
 p a em {
     color: #182afc;
