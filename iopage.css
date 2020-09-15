@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #abce23;
 }
 h1 {
@@ -19,13 +21,13 @@ p a em:hover {
 }
 a.redirect-option {
     text-decoration: none;
+    color: #182afc;
 }
 a.redirect-option:hover {
     color: #18456f;
 }
-p pre code {
-    color: #192acd;
+a.redirect-option:active {
+    color: #182afc;
 }
-
 	    
 
