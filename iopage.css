@@ -23,10 +23,14 @@ a.redirect-option {
     text-decoration: none;
     color: #182afc;
 }
-a.redirect-option:hover {
-    color: #18456f;
+a:hover {
+    color:black;
 }
-a.redirect-option:visited {
+a {
+    text-decoration: none;
+    color: #182afc;
+}
+a:visited {
     color: #182afc;
 }
 	    
