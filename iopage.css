@@ -19,10 +19,6 @@ p a {
 p a em:hover {
     color: #11012d;
 }
-a.redirect-option {
-    text-decoration: none;
-    color: #182afc;
-}
 a:hover {
     color:black;
 }
