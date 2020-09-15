@@ -19,15 +19,6 @@ p a {
 p a em:hover {
     color: #11012d;
 }
-a:hover {
-    color:black;
-}
-a {
-    text-decoration: none;
-    color: #182afc;
-}
-a:visited {
-    color: #182afc;
-}
+
 	    
 
