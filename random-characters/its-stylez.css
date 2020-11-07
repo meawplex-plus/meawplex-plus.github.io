@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #53ad;
+}
+
+input {
+    font-family: 'Quicksand', sans-serif;
+    color: #a00000;
+    border-style: dotted;
+    background-color: #484;
+    border-color: aqua;
+    border-radius: 10px;
+}
+p.special {
+    color: goldenrod;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="./its-stylez.css">
+        <title>Random Characters!</title>
+    </head>
+    <form>Input text into the box. <input name='prev-txt' style='text-align: center' /></form>
+    <p>Previous input below:</p>
+    <p id='nameview' class='special'></p> 
+    <script language='javascript'>
+        function GetURLParameter(sParam)
+        {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+        }
+        var nom = GetURLParameter('prev-txt');
+        var decoded_var = unescape(nom);
+        if (nom != undefined) {
+            document.getElementById("nameview").innerHTML =  decoded_var.replace(/\+/g, " ");
+        }
+    </script>
+</html>
