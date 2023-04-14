@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Origin;
+  src: url("../fonts/origin.otf");
+}
+
+@font-face {
+    font-family: Neuropol;
+    src: url("../fonts/neuropol.otf");
+}
+
+@font-face {
+    font-family: Neodigital;
+    src: url("../fonts/neodigital_free_font.ttf");
+}
+
+@font-face {
+    font-family: Transrobotics;
+    src: url("../fonts/transrobotics.ttf");
+}
+
+html {
+    background-color: black;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.space {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.space.one {
+    background-image: url("../images/bg.jpg");
+    background-attachment: scroll;
+    height: 1440px;
+    
+    
+}
+
+.space.two {
+    background-attachment: scroll;
+    background-image: url("../images/bg2.png");
+    background-size: 100% 995px;
+    height: 995px;
+}
+
+.space p {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 6em;
+    padding-bottom: 2em;
+    font-size: 40px;
+    line-height: 1em;
+    
+}
+
+body {
+    font-family: Transrobotics;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+h1 {
+    font-family:Neuropol ;
+    font-size: 10em;
+}
+
+.mid {
+}
+
+.space.two p em a {
+    padding: 20px;
+    border-radius:1em;
+    border:3px solid white;
+    background-color: darkgray;
+    text-decoration: none;
+    color: white;
+}
+
+.space.two p em a:hover {
+    color: lightgreen;
+    border: 4px solid green;
+    background-color: darkgreen;
+}
