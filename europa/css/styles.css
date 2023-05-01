@@ -106,6 +106,7 @@ a.item {
     background-color: darkgray;
     text-decoration: none;
     color: white;
+    font-size: 50px;
 }
 
 a.item:hover {
