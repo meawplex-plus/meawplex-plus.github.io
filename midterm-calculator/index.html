@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src=" https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js "></script>
+  </head>
+  <body>
+
+    <h2>
+      Midterm Score Calculator
+    </h2>
+
+    <p>
+      With this tool, you can easily calculate your score for any of your classes' midterms. <br />
+      <noscript>However, the tool <i>does</i> require that you enable JavaScript.</noscript>
+    </p>
+
+
+
+    <p>
+      <b>INPUT SCORE:</b> <input placeholder="XXXXX" type="number" min="0" max="100" maxlength="5" size="6" id="scoreInput" /><select id="scoringMode">
+	<option value="0">%</option>
+	<option value="1">/</option>
+      </select><input hidden="true" placeholder="XXXXX" type="number" min="0" max="100" maxlength="5" size="6" id="scoreInput2" /></p>
+    <p>
+      <b>IS CORE (NON-AP SCI, ELA OR MATH)</b>
+      <input type="checkbox" id="scoringCurve" />
+    </p>
+    <p>
+      <b>INPUT LEVEL OF CLASS:</b> <select id="scoringAdditive">
+	<option value="0">Regular</option>
+	<option value="3">Honors/Advanced Honors</option>
+	<option value="5" class="AP">AP</option>
+      </select>
+    </p>
+    <p>
+      Final score: <b id="scoreOut"></b>
+    </p>
+    <button id="calculateScore">
+      Calculate final score
+    </button>
+  </body>
+
+   <script type="text/javascript" src="./calculator.js"></script>
+</html>
